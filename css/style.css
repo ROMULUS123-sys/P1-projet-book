@@ -16,6 +16,7 @@
 body {
     display: flex;
     justify-content: center;
+    margin: 0px;
 }
 
 .main-container {
@@ -66,7 +67,6 @@ a {
 
     header{
         display: flex;
-        flex-direction: row;
         align-items: center;
         justify-content: space-between;
     }
@@ -74,7 +74,6 @@ a {
     /****  Nav ****/
     header nav ul{
         display: flex;
-        flex-direction: row;
         list-style: none;
         gap: 50px;
     }
@@ -82,7 +81,7 @@ a {
     header nav ul a:hover{
         color: #0065FC;
         border-top: #0065FC solid 3px;
-        padding-top: 1.3em;
+        padding-top: 14px;
     }
 
     /**** logo *****/
